@@ -1,0 +1,25 @@
+{
+  "name": "guttenberg_addons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "guttenberg_blocks_addons.js",
+  "scripts": {
+    "dev": "babel \"index.js\" \"-o\" \"bundle.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jundellagbo/guttenberg_addons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jundellagbo/guttenberg_addons/issues"
+  },
+  "homepage": "https://github.com/jundellagbo/guttenberg_addons#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
