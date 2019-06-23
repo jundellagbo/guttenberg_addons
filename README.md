@@ -23,6 +23,8 @@ INSTALL transform react JSX
 
 CONFIG in .babelrc file
 
+description: pragma is the variable comes from wp.element
+
 
 ``` 
 {
@@ -30,10 +32,8 @@ CONFIG in .babelrc file
     "plugins": [
         ["@babel/plugin-transform-react-jsx", { "pragma": "createElement" }]
     ]
-} ```
-
-
-description: pragma is the variable comes from wp.element
+} 
+```
 
 ---
 
