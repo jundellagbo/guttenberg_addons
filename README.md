@@ -47,4 +47,4 @@ Install BABEL Module preset-env
 
 COMPILING CONFIG
 
-``` "dev": "babel \"input.js\" \"-o\" \"output.js\"" ```
+``` "dev": "babel \"input.jsx\" \"-o\" \"output.js\"" ```
