@@ -38,7 +38,7 @@ description: pragma is the variable comes from wp.element
 ---
 
 
-Install BABEL Module preset-ennv
+Install BABEL Module preset-env
 
 ``` npm install --save-dev @babel/preset-env ```
 
