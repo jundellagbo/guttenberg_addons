@@ -24,7 +24,8 @@ INSTALL transform react JSX
 CONFIG in .babelrc file
 
 
-``` {
+``` 
+{
     "presets": ["@babel/preset-env"],
     "plugins": [
         ["@babel/plugin-transform-react-jsx", { "pragma": "createElement" }]
