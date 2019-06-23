@@ -1,4 +1,4 @@
-## Wordpress Gutenberg ES6 React JSX
+## Wordpress Gutenberg ES6 and React JSX
 
 ES6 BABEL core and BABEL cli Installation:
 
