@@ -6,6 +6,13 @@
  * Version: 1.0.0
  */
 
+function GUTTENBERG_ADDONS_LOAD_ADMIN_SCRIPTS() {
+	wp_register_style( 'guttenberg_addon_admin_css', plugin_dir_url(__FILE__) . '/assets/admin.css' );
+	wp_enqueue_style( 'guttenberg_addon_admin_css' );
+	
+}
+add_action( 'admin_enqueue_scripts', 'GUTTENBERG_ADDONS_LOAD_ADMIN_SCRIPTS' );
+
 function GUTTENBERG_ADDONS_BLOCK_CATEGORY( $categories, $post ) {
 	return array_merge(
 		$categories,

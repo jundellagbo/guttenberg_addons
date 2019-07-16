@@ -4,7 +4,8 @@
   "description": "",
   "main": "guttenberg_blocks_addons.js",
   "scripts": {
-    "dev": "babel \"index.jsx\" \"-o\" \"bundle.js\"",
+    "dev": "babel \"index.jsx\" \"-w\" \"-o\" \"bundle.js\"",
+    "start": "babel-watch index.jsx",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
